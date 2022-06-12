@@ -1,0 +1,92 @@
+// КОНТАКТЫ
+.nav__item:not(:last-child) {
+  margin-right: 50px;
+}
+.mail__contacts:not(:last-child) {
+  margin-right: 50px;
+}
+.header__item__contacts {
+  font-weight: 500;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  transition: color var(--transition-timing) var(--transition-function);
+  color: #212121;
+
+  &:hover,
+  &:focus {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: #2196f3;
+  }
+}
+
+.mail__contacts:hover {
+  color: #2196f3;
+}
+
+.header__nav {
+  display: flex;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: auto;
+}
+
+.header__mail:hover .icon__mail,
+.header__mail:focus .icon__mail,
+.header__phone:hover .icon__phone,
+.header__phone:focus .icon__phone {
+  fill: #2196f3;
+}
+
+// TELEFONE // E-MAIL
+
+.header__phone {
+  display: block;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+  align-items: center;
+  transition: color var(--transition-timing) var(--transition-function);
+
+  &:hover,
+  &:focus {
+    color: #2196f3;
+  }
+
+  .icon__phone {
+    fill: #757575;
+    margin-right: 10px;
+    width: 16px;
+  }
+}
+
+.header__mail {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #757575;
+  transition: color var(--transition-timing) var(--transition-function);
+
+  &:hover,
+  &:focus {
+    color: #2196f3;
+  }
+
+  .icon__mail {
+    fill: #757575;
+    margin-right: 10px;
+    height: 16px;
+    transition: fill var(--transition-timing) var(--transition-function);
+  }
+}

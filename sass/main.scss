@@ -1,0 +1,32 @@
+//utils
+
+@import "./utils/vars";
+
+//base styles
+
+@import "./base/common";
+@import "./base/container";
+@import "./base/reset";
+
+//components
+
+@import "./components/button";
+@import "./components/social";
+@import "./components/contakts";
+@import "./components/logo";
+
+// layouts
+
+@import "./layouts/heder";
+@import "./layouts/footer";
+@import "./layouts/title";
+@import "./layouts/clients";
+
+// pages
+
+@import "./pages/modal";
+@import "./pages/portfolio";
+
+// themes
+
+@import "./themes/komand";

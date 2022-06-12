@@ -1,0 +1,119 @@
+.study {
+  padding-bottom: 94px;
+}
+
+.study-title {
+  margin-bottom: 50px;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.study-list {
+  display: flex;
+}
+.picture-item:not(:last-child) {
+  margin-right: 30px;
+}
+// FOTO
+.study-item-image {
+  width: 370px;
+}
+.box-1 {
+  background: rgba(47, 48, 58, 0.8);
+  content: "";
+  width: 370px;
+  height: 70px;
+  display: flex;
+  transform: translateY(-72px);
+
+  align-items: center;
+}
+.tittle-work {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-left: 83px;
+}
+.unique-content {
+  margin: 0 auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+  max-width: 1600px;
+  background-color: #2f303a;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/foto.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  outline: 1px solid black;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.hero {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.hero-list {
+  display: flex;
+}
+.hero-item {
+  width: 270px;
+}
+
+.hero-item:not(:last-child) {
+  margin-right: 30px;
+}
+// Эффективные решения для вашегоt бизнеса
+.main-logo {
+  font-family: Roboto;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-size: 44px;
+  color: #ffffff;
+}
+/* Внимание к деталям */
+.hero-title {
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+
+  color: #212121;
+}
+.herdalo-item-logo {
+  height: 120px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f4fa;
+}
+.item-logo-svg {
+  width: 70px;
+  height: 70px;
+}
+/* Идейные соображения, а также начало повседневной работы по формированию позиции. */
+.upper-title {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}

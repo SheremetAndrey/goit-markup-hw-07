@@ -1,0 +1,62 @@
+/*< !-- Секция наши клиенты -->*/
+.clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.most-client {
+  font-size: 36px;
+  text-align: center;
+  margin-top: 78px;
+  margin-bottom: 50px;
+}
+.all-client {
+  display: inline;
+  list-style-type: none;
+}
+.all-client {
+  display: flex;
+}
+.client:not(:last-child) {
+  margin-right: 30px;
+}
+.client {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: border-color var(--transition-timing) var(--transition-function);
+
+  &:hover,
+  &:focus {
+    border-color: #2196f3;
+  }
+}
+
+.client-icon {
+  width: 100%;
+  height: 100%;
+  fill: #afb1b8;
+  transition: fill var(--transition-timing) var(--transition-function);
+}
+
+.client-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  color: currentColor;
+  cursor: pointer;
+
+  &:hover .client-icon,
+  &:focus .client-icon {
+    fill: #2196f3;
+  }
+}
