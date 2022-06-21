@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/main.min.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
@@ -20,42 +19,40 @@
     <!--секция хедер-->
     <header class="header">
       <div class="container header-nav-list">
-        <nav class="header__container">
-          <a class="header__logo" href="./index.html"
-            >Web<span class="logo__studio">Studio</span></a
+        <nav class="header-container">
+          <a class="header-logo" href="./index.html"
+            >Web<span class="logo-studio">Studio</span></a
           >
 
-          <ul class="header__list list">
-            <li class="nav__item">
-              <a href="./index.html" class="header__item__studio "
-                >Студия</a
-              >
+          <ul class="header-list list">
+            <li class="nav-item">
+              <a href="./index.html" class="header-item-studio">Студия</a>
             </li>
-            <li class="nav__item">
+            <li class="nav-item">
               <a
                 href="./portfolio.html"
-                class="header__item__portfolio current  neon"
+                class="header-item-portfolio current neon"
                 target="_blank"
                 >Портфолио</a
               >
             </li>
-            <li class="nav__item">
-              <a href="" class="header__item__contacts">Контакты</a>
+            <li class="nav-item">
+              <a href="" class="header-item-contacts">Контакты</a>
             </li>
           </ul>
         </nav>
-        <ul class="header__nav list">
-          <li class="mail__contacts link">
-            <a class="header__mail" href="mailto:info@devstudio.com">
-              <svg class="icon__mail" width="16px" height="12px">
-                <use href="./images/icons.svg/symbol-defs.svg#mail" ></use>
+        <ul class="header-nav list">
+          <li class="mail-contacts link">
+            <a class="header-mail" href="mailto:info@devstudio.com">
+              <svg class="icon-mail" width="16px" height="12px">
+                <use href="./images/icons.svg/symbol-defs.svg#mail"></use>
               </svg>
               info@devstudio.com
             </a>
           </li>
-          <li class="mail__contacts link">
-            <a class="header__phone" href="tel:+380961111111">
-              <svg class="icon__phone" width="10px" height="16px">
+          <li class="mail-contacts link">
+            <a class="header-phone" href="tel:+380961111111">
+              <svg class="icon-phone" width="10px" height="16px">
                 <use href="./images/icons.svg/symbol-defs.svg#telefone"></use>
               </svg>
               +38 096 111 11 11</a
@@ -69,151 +66,220 @@
       <section class="portfolio-container">
         <div class="container">
           <ul class="content-main">
-            <li class="list">
+            <li class="list-btn list">
               <button class="portfolio-btn" type="button">Все</button>
             </li>
-            <li class="list">
+            <li class="list-btn list">
               <button class="portfolio-btn" type="button">Веб-сайты</button>
             </li>
-            <li class="list">
+            <li class="list-btn list">
               <button class="portfolio-btn" type="button">Прилижения</button>
             </li>
-            <li class="list">
+            <li class="list-btn list">
               <button class="portfolio-btn" type="button">Дизайн</button>
             </li>
-            <li class="list">
+            <li class="list-btn list">
               <button class="portfolio-btn" type="button">Маркетинг</button>
             </li>
           </ul>
 
           <!--Уникальный контент-->
 
-          <ul class="uniqum-content-block list">
+          <ul class="uniqum-content-block">
             <li class="main-content list">
-               <div class="product-overlay">
-                    <a class="link-content" href="">
-                      <img class="image" src="./images/image_1.jpg" alt="image_1" />             
-                    <div class="product-actions">
-                      <p class="content-text">Ресурс предлагает комплексные<br> предложения с разным уровнем функционала и сервисов. Все это<br> позволит посетителю получить<br>исчерпывающие сведения<br>о компании или частном лице.</p>
-                    </div>
-                </div>
-                  <div class="paragraf-web">
-                  <h3 class="paragraph">Технокряк</h3>
-                  <p class="title">Веб-сайт</p>
+              <a class="link-content" href="">
+                <div class="product">
+                  <img class="image" src="./images/image_1.jpg" alt="image_1" />
+                  <div class="product-overlay">
+                    <p class="content-text">
+                      Ресурс предлагает комплексные<br />
+                      предложения с разным уровнем функционала и сервисов. Все
+                      это<br />
+                      позволит посетителю получить<br />исчерпывающие
+                      сведения<br />о компании или частном лице.
+                    </p>
                   </div>
-                
-              </a>
-            </li>
-            <li class="main-content list">
-               <div class="product-overlay">
-                    <a class="link-content" href="">
-                      <img class="image" src="./images/image_2.jpg" alt="image_1" />             
-                    <div class="product-actions">
-                      <p class="content-text">Ресурс предлагает комплексные<br> предложения с разным уровнем функционала и сервисов. Все это<br> позволит посетителю получить<br>исчерпывающие сведения<br>о компании или частном лице.</p>
-                    </div>
                 </div>
                 <div class="paragraf-web">
-                <h3 class="paragraph">Постер New Orlean vs Golden Star</h3>
-                <p class="title">Дизайн</p>
-              </div>
+                  <h2 class="paragraph">Growing Business</h2>
+                  <p class="title">Приложение</p>
+                </div>
               </a>
             </li>
             <li class="main-content list">
-              <div class="product-overlay">
-                    <a class="link-content" href="">
-                      <img class="image" src="./images/image_3.jpg" alt="image_1" />             
+              <a class="link-content" href="">
+                <div class="product">
+                  <img class="image" src="./images/image_2.jpg" alt="image_1" />
+                  <div class="product-overlay">
                     <div class="product-actions">
-                      <p class="content-text">Ресурс предлагает комплексные<br> предложения с разным уровнем функционала и сервисов. Все это<br> позволит посетителю получить<br>исчерпывающие сведения<br>о компании или частном лице.</p>
+                      <p class="content-text">
+                        Ресурс предлагает комплексные<br />
+                        предложения с разным уровнем функционала и сервисов. Все
+                        это<br />
+                        позволит посетителю получить<br />исчерпывающие
+                        сведения<br />о компании или частном лице.
+                      </p>
                     </div>
+                  </div>
                 </div>
                 <div class="paragraf-web">
-                <h3 class="paragraph">Ресторан Seafood</h3>
-                <p class="title">Приложение</p>
-              </div>
-              </a>
-            </li>
-            <li class="main-content list">
-              <div class="product-overlay">
-                    <a class="link-content" href="">
-                      <img class="image" src="./images/image_4.jpg" alt="image_1" />             
-                    <div class="product-actions">
-                      <p class="content-text">Ресурс предлагает комплексные<br> предложения с разным уровнем функционала и сервисов. Все это<br> позволит посетителю получить<br>исчерпывающие сведения<br>о компании или частном лице.</p>
-                    </div>
+                  <h2 class="paragraph">Growing Business</h2>
+                  <p class="title">Приложение</p>
                 </div>
-                 <div class="paragraf-web">
-                <h3 class="paragraph">Проект Prime</h3>
-                <p class="title">Маркетинг</p>
-              </div>
               </a>
             </li>
             <li class="main-content list">
-              <div class="product-overlay">
-                    <a class="link-content" href="">
-                      <img class="image" src="./images/image_5.jpg" alt="image_1" />             
+              <a class="link-content" href="">
+                <div class="product">
+                  <img class="image" src="./images/image_3.jpg" alt="image_1" />
+                  <div class="product-overlay">
                     <div class="product-actions">
-                      <p class="content-text">Ресурс предлагает комплексные<br> предложения с разным уровнем функционала и сервисов. Все это<br> позволит посетителю получить<br>исчерпывающие сведения<br>о компании или частном лице.</p>
+                      <p class="content-text">
+                        Ресурс предлагает комплексные<br />
+                        предложения с разным уровнем функционала и сервисов. Все
+                        это<br />
+                        позволит посетителю получить<br />исчерпывающие
+                        сведения<br />о компании или частном лице.
+                      </p>
                     </div>
+                  </div>
                 </div>
                 <div class="paragraf-web">
-                <h3 class="paragraph">Проект Boxes</h3>
-                <p class="title">Приложение</p>
-              </div>
+                  <h2 class="paragraph">Growing Business</h2>
+                  <p class="title">Приложение</p>
+                </div>
               </a>
             </li>
             <li class="main-content list">
-               <div class="product-overlay">
-                    <a class="link-content" href="">
-                      <img class="image" src="./images/image_6.jpg" alt="image_1" />             
+              <a class="link-content" href="">
+                <div class="product">
+                  <img class="image" src="./images/image_4.jpg" alt="image_1" />
+                  <div class="product-overlay">
                     <div class="product-actions">
-                      <p class="content-text">Ресурс предлагает комплексные<br> предложения с разным уровнем функционала и сервисов. Все это<br> позволит посетителю получить<br>исчерпывающие сведения<br>о компании или частном лице.</p>
+                      <p class="content-text">
+                        Ресурс предлагает комплексные<br />
+                        предложения с разным уровнем функционала и сервисов. Все
+                        это<br />
+                        позволит посетителю получить<br />исчерпывающие
+                        сведения<br />о компании или частном лице.
+                      </p>
                     </div>
+                  </div>
                 </div>
                 <div class="paragraf-web">
-                <h3 class="paragraph">Inspiration has no Borders</h3>
-                <p class="title">Веб-сайт</p>
-              </div>
+                  <h2 class="paragraph">Growing Business</h2>
+                  <p class="title">Приложение</p>
+                </div>
               </a>
             </li>
             <li class="main-content list">
-               <div class="product-overlay">
-                    <a class="link-content" href="">
-                      <img class="image" src="./images/image_7.jpg" alt="image_1" />             
+              <a class="link-content" href="">
+                <div class="product">
+                  <img class="image" src="./images/image_5.jpg" alt="image_1" />
+                  <div class="product-overlay">
                     <div class="product-actions">
-                      <p class="content-text">Ресурс предлагает комплексные<br> предложения с разным уровнем функционала и сервисов. Все это<br> позволит посетителю получить<br>исчерпывающие сведения<br>о компании или частном лице.</p>
+                      <p class="content-text">
+                        Ресурс предлагает комплексные<br />
+                        предложения с разным уровнем функционала и сервисов. Все
+                        это<br />
+                        позволит посетителю получить<br />исчерпывающие
+                        сведения<br />о компании или частном лице.
+                      </p>
                     </div>
+                  </div>
                 </div>
                 <div class="paragraf-web">
-                <h3 class="paragraph">Издание Limited Edition</h3>
-                <p class="title">Дизайн</p>
-              </div>
+                  <h2 class="paragraph">Growing Business</h2>
+                  <p class="title">Приложение</p>
+                </div>
               </a>
             </li>
             <li class="main-content list">
-               <div class="product-overlay">
-                    <a class="link-content" href="">
-                      <img class="image" src="./images/image_8.jpg" alt="image_1" />             
+              <a class="link-content" href="">
+                <div class="product">
+                  <img class="image" src="./images/image_6.jpg" alt="image_1" />
+                  <div class="product-overlay">
                     <div class="product-actions">
-                      <p class="content-text">Ресурс предлагает комплексные<br> предложения с разным уровнем функционала и сервисов. Все это<br> позволит посетителю получить<br>исчерпывающие сведения<br>о компании или частном лице.</p>
+                      <p class="content-text">
+                        Ресурс предлагает комплексные<br />
+                        предложения с разным уровнем функционала и сервисов. Все
+                        это<br />
+                        позволит посетителю получить<br />исчерпывающие
+                        сведения<br />о компании или частном лице.
+                      </p>
                     </div>
+                  </div>
                 </div>
                 <div class="paragraf-web">
-                <h3 class="paragraph">Проект LAB</h3>
-                <p class="title">Маркетинг</p>
-              </div>
+                  <h2 class="paragraph">Growing Business</h2>
+                  <p class="title">Приложение</p>
+                </div>
               </a>
             </li>
             <li class="main-content list">
-               <div class="product-overlay">
-                    <a class="link-content" href="">
-                      <img class="image" src="./images/image_9.jpg" alt="image_1" />             
+              <a class="link-content" href="">
+                <div class="product">
+                  <img class="image" src="./images/image_7.jpg" alt="image_1" />
+                  <div class="product-overlay">
                     <div class="product-actions">
-                      <p class="content-text">Ресурс предлагает комплексные<br> предложения с разным уровнем функционала и сервисов. Все это<br> позволит посетителю получить<br>исчерпывающие сведения<br>о компании или частном лице.</p>
+                      <p class="content-text">
+                        Ресурс предлагает комплексные<br />
+                        предложения с разным уровнем функционала и сервисов. Все
+                        это<br />
+                        позволит посетителю получить<br />исчерпывающие
+                        сведения<br />о компании или частном лице.
+                      </p>
                     </div>
+                  </div>
                 </div>
                 <div class="paragraf-web">
-                <h3 class="paragraph">Growing Business</h3>
-                <p class="title">Приложение</p>
-              </div>
+                  <h2 class="paragraph">Growing Business</h2>
+                  <p class="title">Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="main-content list">
+              <a class="link-content" href="">
+                <div class="product">
+                  <img class="image" src="./images/image_8.jpg" alt="image_1" />
+                  <div class="product-overlay">
+                    <div class="product-actions">
+                      <p class="content-text">
+                        Ресурс предлагает комплексные<br />
+                        предложения с разным уровнем функционала и сервисов. Все
+                        это<br />
+                        позволит посетителю получить<br />исчерпывающие
+                        сведения<br />о компании или частном лице.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="paragraf-web">
+                  <h2 class="paragraph">Growing Business</h2>
+                  <p class="title">Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="main-content list">
+              <a class="link-content" href="">
+                <div class="product">
+                  <img class="image" src="./images/image_9.jpg" alt="image_1" />
+                  <div class="product-overlay">
+                    <div class="product-actions">
+                      <p class="content-text">
+                        Ресурс предлагает комплексные<br />
+                        предложения с разным уровнем функционала и сервисов. Все
+                        это<br />
+                        позволит посетителю получить<br />исчерпывающие
+                        сведения<br />о компании или частном лице.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="paragraf-web">
+                  <h2 class="paragraph">Growing Business</h2>
+                  <p class="title">Приложение</p>
+                </div>
               </a>
             </li>
           </ul>
@@ -225,42 +291,83 @@
     <footer class="footer-container">
       <div class="container adress-footer">
         <div class="conteyner-footer">
-        <a class="footer-logo" href="./index.html"
-          >Web<span class="logo-studio-footer">Studio</span></a>
-        <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
-        <ul class="footer-list list">
-          <li class="footer-adress">
-            <a class="footer-item" href="mailto:info@example.com"
-              >info@example.com</a
-            >
-          </li>
-          <li class="footer-list list">
-            <a class="footer-item" href="tel:+380991111111"
-              >+38 099 111 11 11</a
-            >
-          </li>
-        </ul>
-      </div>
-       <div class="sety-come">
+          <a class="footer-logo" href="./index.html"
+            >Web<span class="logo-studio-footer">Studio</span></a
+          >
+          <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
+          <ul class="footer-list list">
+            <li class="footer-adress">
+              <a class="footer-item" href="mailto:info@example.com"
+                >info@example.com</a
+              >
+            </li>
+            <li class="footer-list list">
+              <a class="footer-item" href="tel:+380991111111"
+                >+38 099 111 11 11</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="sety-come">
           <h3 class="commen">присоединяйтесь</h3>
           <ul class="sety">
-          <li class="sety-social"><a class="social-all" href=""aria-label="instogram">
-            <svg class="svg-icon-come"><use href="./images/icons.svg/symbol-defs.svg#instagram-logo"></svg></a></li>
-          <li class="sety-social"><a class="social-all" href=""aria-label="twitter">
-            <svg class="svg-icon-come"><use href="./images/icons.svg/symbol-defs.svg#twitter-logo"></svg></a></li>
-          <li class="sety-social"><a class="social-all" href=""aria-label="facebook">
-            <svg class="svg-icon-come"><use href="./images/icons.svg/symbol-defs.svg#facebook-logo"></svg></a></li>
-          <li class="sety-social"><a class="social-all" href=""aria-label="IN">
-            <svg class="svg-icon-come"><use href="./images/icons.svg/symbol-defs.svg#linkedin-logo"></svg></a></li>
-        </ul>
+            <li class="sety-social">
+              <a class="social-all" href="" aria-label="instogram">
+                <svg class="svg-icon-come">
+                  <use
+                    href="./images/icons.svg/symbol-defs.svg#instagram-logo"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="sety-social">
+              <a class="social-all" href="" aria-label="twitter">
+                <svg class="svg-icon-come">
+                  <use
+                    href="./images/icons.svg/symbol-defs.svg#twitter-logo"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="sety-social">
+              <a class="social-all" href="" aria-label="facebook">
+                <svg class="svg-icon-come">
+                  <use
+                    href="./images/icons.svg/symbol-defs.svg#facebook-logo"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="sety-social">
+              <a class="social-all" href="" aria-label="IN">
+                <svg class="svg-icon-come">
+                  <use
+                    href="./images/icons.svg/symbol-defs.svg#linkedin-logo"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
         </div>
-        <form action=""class="form-masenger">
-          <label class="masenger" for="">Подпишитесь на рассылку
-            <input class="input-masenger"  placeholder="E-mail" type="text">
+        <form class="form-masenger">
+          <label class="masenger" for="label-masenger"
+            >Подпишитесь на рассылку
+            <input
+              class="label-masenger"
+              id="label-masenger"
+              placeholder="E-mail"
+              type="text"
+            />
           </label>
-          <button class="masenger-send"><span class="masenger-send-go">Подписаться</span> <svg class="send-icon"><use href="./images/icons.svg/modal.svg#icon-send-1"></use></svg></button>
-          </form>
+          <button class="masenger-send">
+            <span class="masenger-send-go">Подписаться</span>
+            <svg class="send-icon">
+              <use href="./images/icons.svg/modal.svg#icon-send-1"></use>
+            </svg>
+          </button>
+        </form>
       </div>
     </footer>
+    <script src="./JS/modal.js"></script>
   </body>
 </html>
