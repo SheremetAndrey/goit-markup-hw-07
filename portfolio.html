@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
@@ -18,41 +19,41 @@
   <body>
     <!--секция хедер-->
     <header class="header">
-      <div class="container header__nav__list">
-        <nav class="header__container">
-          <a class="header__logo" href="./index.html"
+      <div class="container header__container">
+        <nav class="nav">
+          <a class="logo" href="./index.html"
             >Web<span class="logo__studio">Studio</span></a
           >
 
-          <ul class="header__list list">
-            <li class="nav__item">
-              <a href="./index.html" class="header__item__studio">Студия</a>
+          <ul class="site__nav list">
+            <li class="site__nav__item">
+              <a href="./index.html" class="site__nav__link">Студия</a>
             </li>
-            <li class="nav__item">
+            <li class="site__nav__item">
               <a
                 href="./portfolio.html"
-                class="header__item__portfolio current neon"
+                class="site__nav__link__portfolio site__nav__link__current neon"
                 target="_blank"
                 >Портфолио</a
               >
             </li>
-            <li class="nav__item">
-              <a href="" class="header__item__contacts">Контакты</a>
+            <li class="site__nav__item">
+              <a href="" class="site__nav__link__contacts">Контакты</a>
             </li>
           </ul>
         </nav>
-        <ul class="header__nav list">
-          <li class="mail__contacts link">
-            <a class="header__phone" href="tel:+380961111111">
-              <svg class="icon__phone" width="10px" height="16px">
-                <use href="./images/icons.svg/symbol-defs.svg#telefone"></use>
+        <ul class="contacts list">
+          <li class="contacts__item link">
+            <a class="contacts__link" href="mailto:info@devstudio.com">
+              <svg class="link__contacts__icon" width="16px" height="12px">
+                <use href="./images/icons.svg/symbol-defs.svg#mail"></use>
               </svg>
-              +38 096 111 11 11</a
-            >
+              info@devstudio.com
+            </a>
           </li>
-          <li class="mail__contacts link">
-            <a class="header__phone" href="tel:+380961111111">
-              <svg class="icon__phone" width="10px" height="16px">
+          <li class="contacts__item link">
+            <a class="contacts__link" href="tel:+380961111111">
+              <svg class="link__contacts__icon" width="16px" height="16px">
                 <use href="./images/icons.svg/symbol-defs.svg#telefone"></use>
               </svg>
               +38 096 111 11 11</a
@@ -65,31 +66,35 @@
     <main>
       <section class="portfolio__container">
         <div class="container">
-          <ul class="content__main">
-            <li class="list__btn list">
+          <ul class="content__list">
+            <li class="button__item list">
               <button class="portfolio__btn" type="button">Все</button>
             </li>
-            <li class="list__btn list">
+            <li class="button__item list">
               <button class="portfolio__btn" type="button">Веб-сайты</button>
             </li>
-            <li class="list__btn list">
+            <li class="button__item list">
               <button class="portfolio__btn" type="button">Прилижения</button>
             </li>
-            <li class="list__btn list">
+            <li class="button__item list">
               <button class="portfolio__btn" type="button">Дизайн</button>
             </li>
-            <li class="list__btn list">
+            <li class="button__item list">
               <button class="portfolio__btn" type="button">Маркетинг</button>
             </li>
           </ul>
 
           <!--Уникальный контент-->
 
-          <ul class="uniqum__content__block">
-            <li class="main__content list">
-              <a class="link__content" href="">
+          <ul class="content">
+            <li class="content__item list">
+              <a class="content__link" href="">
                 <div class="product">
-                  <img class="image" src="./images/image_1.jpg" alt="image_1" />
+                  <img
+                    class="content__image"
+                    src="./images/image_1.jpg"
+                    alt="image_1"
+                  />
                   <div class="product__overlay">
                     <p class="content__text">
                       Ресурс предлагает комплексные<br />
@@ -106,10 +111,14 @@
                 </div>
               </a>
             </li>
-            <li class="main__content list">
-              <a class="link__content" href="">
+            <li class="content__item list">
+              <a class="content__link" href="">
                 <div class="product">
-                  <img class="image" src="./images/image_2.jpg" alt="image_1" />
+                  <img
+                    class="content__image"
+                    src="./images/image_2.jpg"
+                    alt="image_1"
+                  />
                   <div class="product__overlay">
                     <div class="product__actions">
                       <p class="content__text">
@@ -128,10 +137,14 @@
                 </div>
               </a>
             </li>
-            <li class="main__content list">
-              <a class="link__content" href="">
+            <li class="content__item list">
+              <a class="content__link" href="">
                 <div class="product">
-                  <img class="image" src="./images/image_3.jpg" alt="image_1" />
+                  <img
+                    class="content__image"
+                    src="./images/image_3.jpg"
+                    alt="image_1"
+                  />
                   <div class="product__overlay">
                     <div class="product__actions">
                       <p class="content__text">
@@ -150,10 +163,14 @@
                 </div>
               </a>
             </li>
-            <li class="main__content list">
-              <a class="link__content" href="">
+            <li class="content__item list">
+              <a class="content__link" href="">
                 <div class="product">
-                  <img class="image" src="./images/image_4.jpg" alt="image_1" />
+                  <img
+                    class="content__image"
+                    src="./images/image_4.jpg"
+                    alt="image_1"
+                  />
                   <div class="product__overlay">
                     <div class="product__actions">
                       <p class="content__text">
@@ -172,10 +189,14 @@
                 </div>
               </a>
             </li>
-            <li class="main__content list">
-              <a class="link__content" href="">
+            <li class="content__item list">
+              <a class="content__link" href="">
                 <div class="product">
-                  <img class="image" src="./images/image_5.jpg" alt="image_1" />
+                  <img
+                    class="content__image"
+                    src="./images/image_5.jpg"
+                    alt="image_1"
+                  />
                   <div class="product__overlay">
                     <div class="product__actions">
                       <p class="content__text">
@@ -194,10 +215,14 @@
                 </div>
               </a>
             </li>
-            <li class="main__content list">
-              <a class="link__content" href="">
+            <li class="content__item list">
+              <a class="content__link" href="">
                 <div class="product">
-                  <img class="image" src="./images/image_6.jpg" alt="image_1" />
+                  <img
+                    class="content__image"
+                    src="./images/image_6.jpg"
+                    alt="image_1"
+                  />
                   <div class="product__overlay">
                     <div class="product__actions">
                       <p class="content__text">
@@ -216,10 +241,14 @@
                 </div>
               </a>
             </li>
-            <li class="main__content list">
-              <a class="link__content" href="">
+            <li class="content__item list">
+              <a class="content__link" href="">
                 <div class="product">
-                  <img class="image" src="./images/image_7.jpg" alt="image_1" />
+                  <img
+                    class="content__image"
+                    src="./images/image_7.jpg"
+                    alt="image_1"
+                  />
                   <div class="product__overlay">
                     <div class="product__actions">
                       <p class="content__text">
@@ -238,10 +267,14 @@
                 </div>
               </a>
             </li>
-            <li class="main__content list">
-              <a class="link__content" href="">
+            <li class="content__item list">
+              <a class="content__link" href="">
                 <div class="product">
-                  <img class="image" src="./images/image_8.jpg" alt="image_1" />
+                  <img
+                    class="content__image"
+                    src="./images/image_8.jpg"
+                    alt="image_1"
+                  />
                   <div class="product__overlay">
                     <div class="product__actions">
                       <p class="content__text">
@@ -260,10 +293,14 @@
                 </div>
               </a>
             </li>
-            <li class="main__content list">
-              <a class="link__content" href="">
+            <li class="content__item list">
+              <a class="content__link" href="">
                 <div class="product">
-                  <img class="image" src="./images/image_9.jpg" alt="image_1" />
+                  <img
+                    class="content__image"
+                    src="./images/image_9.jpg"
+                    alt="image_1"
+                  />
                   <div class="product__overlay">
                     <div class="product__actions">
                       <p class="content__text">
